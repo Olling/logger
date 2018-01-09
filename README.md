@@ -1,2 +1,2 @@
-# logger
-Simple golang package to wrap logging
+# slog
+Simple Log is an attempt to make it much easier to get startet with logging in golang applications
