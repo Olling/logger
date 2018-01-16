@@ -104,7 +104,7 @@ func SetFlags(flag int) {
 }
 
 
-// SetOutput sets the flag on all the loggers
+// SetOutput sets the output io.writer on all the loggers
 func SetOutput(w io.Writer) {
 	FatalLogger.SetOutput(w)
 	ErrorLogger.SetOutput(w)
